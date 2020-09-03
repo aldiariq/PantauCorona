@@ -38,7 +38,9 @@ class CoronaController extends CI_Controller {
     }
 
     public function halamantidakditemukan(){
+        $this->load->view('templates/header');
         $this->load->view('404');
+        $this->load->view('templates/footer');
     }
 
 }

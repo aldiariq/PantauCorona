@@ -18,7 +18,7 @@
                 <ul class="nav navbar-right navbar-top-links">
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                            <i class="fa fa-server fa-fw"></i> Alamat IP Pengakses :
+                            <i class="fa fa-server fa-fw"></i> Alamat IP Pengakses : <?= $_SERVER['REMOTE_ADDR'] ?>
                         </a>
                     </li>
                 </ul>
@@ -28,9 +28,7 @@
                     <div class="sidebar-nav navbar-collapse">
                         <ul class="nav" id="side-menu">
                             <li>
-                                <a href="<?= base_url() ?>" class="<?php if ($this->uri->segment(2) == '') {
-                                                                        echo "active";
-                                                                    } ?>"><i class="fa fa-home fa-fw"></i> Halaman Utama</a>
+                                <a href="<?= BASE_URL() ?>" class="active"><i class="fa fa-home fa-fw"></i> Halaman Utama</a>
                             </li>
                         </ul>
                     </div>
