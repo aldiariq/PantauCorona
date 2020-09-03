@@ -374,6 +374,24 @@ table.dataTable thead .sorting:after {
     color: #df8a13;
 }
 
+.panel-orange {
+    border-color: #ffa500;
+}
+
+.panel-orange .panel-heading {
+    border-color: #ffa500;
+    color: #fff;
+    background-color: #ffa500;
+}
+
+.panel-orange a {
+    color: #ffa500;
+}
+
+.panel-orange a:hover {
+    color: #ffa500;
+}
+
 /* Hero Widgets */
 .hero-widget {
     text-align: center;

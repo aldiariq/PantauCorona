@@ -21,11 +21,14 @@
         <!-- Custom CSS -->
         <link href="<?= BASE_URL() ?>assets/css/startmin.css" rel="stylesheet">
 
-        <!-- Morris Charts CSS -->
-        <link href="<?= BASE_URL() ?>assets/css/morris.css" rel="stylesheet">
+        <!-- Fontawesome CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 
-        <!-- Custom Fonts -->
-        <link href="<?= BASE_URL() ?>assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <!-- DataTables CSS -->
+        <link href="<?= BASE_URL() ?>assets/css/dataTables/dataTables.bootstrap.css" rel="stylesheet">
+
+        <!-- DataTables Responsive CSS -->
+        <link href="<?= BASE_URL() ?>assets/css/dataTables/dataTables.responsive.css" rel="stylesheet">
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
