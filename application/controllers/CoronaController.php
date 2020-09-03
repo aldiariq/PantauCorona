@@ -32,6 +32,12 @@ class CoronaController extends CI_Controller {
             'ResponseApinasional' => $hasildecoderesponseApinasional,
             'ReponsedetilApinasional' => $hasildecoderesponsedetilApidetilnasional
         );
+
+        $this->load->view('templates/header');
+        $this->load->view('index', $datacovid);
+        $this->load->view('templates/footer');
+        
+        
     }
 
     //Method endpoint tidak ditemukan
@@ -42,6 +48,10 @@ class CoronaController extends CI_Controller {
         );
 
         echo json_encode($dataendpointtidakditemukan);
+    }
+
+    public function halamantidakditemukan(){
+        $this->load->view('404');
     }
 
 }

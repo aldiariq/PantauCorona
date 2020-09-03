@@ -52,4 +52,4 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'CoronaController';
 $route['404_override'] = 'CoronaController/halamantidakditemukan';
 $route['translate_uri_dashes'] = FALSE;
-$route['tes'] = 'CoronaController/tesAPI';
+$route['tes'] = 'CoronaController/datacovidnasional';
