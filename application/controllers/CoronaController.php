@@ -26,7 +26,7 @@ class CoronaController extends CI_Controller {
         $responseApidetilNasional = file_get_contents($apiurldetilNasional);
         $hasildecoderesponsedetilApidetilnasional = json_decode($responseApidetilNasional);
         
-        $data = array(
+        $datacovid = array(
             'Lingkup' => 'Nasional',
             'NamaNegara' => 'Indonesia',
             'ResponseApinasional' => $hasildecoderesponseApinasional,
